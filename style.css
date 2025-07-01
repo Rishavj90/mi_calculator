@@ -1,0 +1,138 @@
+body{
+    background-color: black;
+}
+
+#display_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+    gap:1%;
+}
+
+#display{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 230px;
+    width: 80%;
+    padding-left: 2%;
+    padding-right: 2%;
+    background-color: rgb(169, 164, 164);
+    border-radius: 30px;
+    border: white solid;
+    outline: none;
+    font-family:monospace;
+    font-size: 160px;
+    font-weight: bolder;
+}
+#clear{
+    height: 230px;
+    width: 6.8%;
+    font-family: 'Bitcount Grid Double';
+    font-size: 50px;
+    border-radius: 15px;
+    outline: none;
+    transition: 0.2s ease;
+}
+#clear:hover{
+    background-color: rgba(255, 255, 255, 0.487);
+    font-weight: bolder;
+    color: white;
+    border: white solid 2px;
+}
+
+#Aclear{
+    height: 230px;
+    width: 6.8%;
+    font-family: 'Bitcount Grid Double';
+    font-size: 50px;
+    border-radius: 15px;
+    outline: none;
+    transition: 0.2s ease;
+}
+#Aclear:hover{
+    background-color: rgba(255, 255, 255, 0.487);
+    font-weight: bolder;
+    color: white;
+    border: white solid 2px;
+}
+
+#numpad{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1%;
+    gap: 10px;
+}
+#numpad button{
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    font-size: 50px;
+    font-family: 'Bitcount Grid Double';
+    border: none;
+    transition: 0.3s ease;
+}
+
+#numpad button:hover{
+    background-color: rgb(255, 132, 196);
+    font-weight: bolder;
+    border-radius: 20px;
+}
+
+#operators{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#operators button{
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    font-size: 50px;
+    font-family: 'Bitcount Grid Double';
+    border: none;
+    transition: 0.3s ease;
+}
+
+#operators button:hover{
+    background-color: aquamarine;
+    font-weight: bolder;
+    border-radius: 20px;
+}
+
+#operators #equal1{
+    height: 100px;
+    width: 180px;
+    border-radius: 50px;
+    transition: 0.2s ease;
+}
+#operators #equal1:hover{
+    background-color: rgba(246, 169, 93, 0.92);
+    font-weight: bolder;
+    border-radius: 20px;
+}
+#operators #equal2{
+    height: 100px;
+    width: 180px;
+    border-radius: 50px;
+    transition: 0.2s ease;
+}
+#operators #equal2:hover{
+    background-color: rgba(246, 169, 93, 0.92);
+    font-weight: bolder;
+    border-radius: 20px;
+}
+
+#msg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+    font-size: 20px;
+    color: white;
+    padding-top: 5%;
+}
